@@ -1,0 +1,14 @@
+{
+    "student1":{
+        "matematika":[5,3,4],
+        "english" : [5,5,4]
+    },
+    "student2":{
+        "uzbek":[4,5,5,5]
+    },
+    "student3":{
+        "tarix":[5,5,4,3,3],
+        "kimyo":[3,3,3,2],
+        "fizika":[4,4,4,5]
+    }
+}
