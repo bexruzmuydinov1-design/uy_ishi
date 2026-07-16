@@ -69,24 +69,28 @@ import json
 
 
 
-with open("loyha.json") as f:
-    data=json.load(f)
-    a=data['branches']
-    for i in  range(len(a)):
-        t=a[i]['teachers']
-        flag = False
-        for x in t:
-            if x['subject'] != "Python":
-                flag = True
-        if flag:
-            a[i] = a[i+1]
-    else:
-        print(a[i]['name'])
+# with open("loyha.json") as f:
+#     data=json.load(f)
+#     a=data['branches']
+#     for i in  range(len(a)):
+#         t=a[i]['teachers']
+#         flag = False
+#         for x in t:
+#             if x['subject'] != "Python":
+#                 flag = True
+#         if flag:
+#             a[i] = a[i+1]
+#     else:
+#         print(a[i]['name'])
                 
 
 
 
 
+with open("kino.json") as f:
+    data=json.load(f)
+    for i in data:
+        print(i)
                 
     
 

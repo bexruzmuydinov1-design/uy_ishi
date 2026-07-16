@@ -153,11 +153,37 @@ import json
 #     print(new)
 
 
-with open("odam.json") as f:
-    data=json.load(f)
-    for k,v in data.items():
-        for i in v:
-            print(f"{i['name']}\t{sum(i['grades'])/len(i['grades'])}")
+# with open("odam.json") as f:
+#     data=json.load(f)
+#     for k,v in data.items():
+#         for i in v:
+#             print(f"{i['name']}\t{sum(i['grades'])/len(i['grades'])}")
+
+
+
+
+
+# def majority_element(nums: list):
+#     if not nums:
+#         return -1
+
+#     d = {}
+
+#     for i in nums:
+#         if i in d:
+#             d[i] += 1
+#         else:
+#             d[i] = 1
+
+#     return max(d, key=d.get)
+
+
+# print(majority_element([2,2,1,1,1,2,2]))
+
+
+
+
+
         
     
 
